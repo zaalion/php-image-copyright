@@ -38,7 +38,7 @@
 				die("the x_position or y_position values are not currect. they must be smaller than image dimentions . ");
 				
 			imagestring ($image,$this->font,$this->x_position,$this->y_position,$this->text,$col);
-			imagejpeg ($image, "", 100);
+			imagejpeg ($image, null, 100);
 			}
 		}
 ?>
